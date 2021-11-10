@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.question{
+    background-color: #14213d;
+    padding: 30px;
+    border-radius: 10px;
+    width:100%;
+}
+.questionText{
+    font-size: 30px;
+    line-height: 40px;
+}
+.answers{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    margin: 30px;
+    width:100%;
+}
+.quizBtn{
+    background-color: #14213d;
+    padding: 20px;
+    font-weight: 600;
+    border: none;
+}
